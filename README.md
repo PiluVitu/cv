@@ -65,3 +65,8 @@ docker compose down
 # License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# TODO
+
+- Tirar foto de perfil 
+- Declarar o que fiz e no projeto e não o que o projeto faz
