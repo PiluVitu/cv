@@ -60,7 +60,7 @@ const CardContent = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "text-pretty font-mono text-sm text-muted-foreground",
+      "whitespace-pre text-pretty font-mono text-sm text-muted-foreground",
       className,
     )}
     {...props}
@@ -78,9 +78,9 @@ CardFooter.displayName = "CardFooter";
 
 export {
   Card,
-  CardHeader,
-  CardFooter,
-  CardTitle,
-  CardDescription,
   CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
 };

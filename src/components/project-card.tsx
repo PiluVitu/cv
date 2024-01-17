@@ -1,11 +1,11 @@
+import { Badge } from "./ui/badge";
 import {
   Card,
-  CardHeader,
   CardContent,
   CardDescription,
+  CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Badge } from "./ui/badge";
 
 interface Props {
   title: string;
@@ -36,7 +36,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <CardDescription className="font-mono text-xs">
+          <CardDescription className="whitespace-pre text-pretty font-mono text-xs">
             {description}
           </CardDescription>
         </div>
